@@ -15,7 +15,12 @@
     "*.{js,vue}": "eslint"
   },
   "dependencies": {
+    "@braid/vue-formulate": "^2.5.2",
+    "@nuxtjs/dayjs": "^1.4.0",
     "core-js": "^3.15.1",
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^1.8.5",
+    "lodash": "^4.17.21",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
@@ -29,7 +34,9 @@
     "eslint-plugin-vue": "^7.12.1",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
+    "node-sass": "^6.0.1",
     "postcss": "^8.3.5",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "sass-loader": "^10.1.0"
   }
 }
