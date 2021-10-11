@@ -8,13 +8,7 @@ module.exports = {
       background: theme('colors'),
     }),
     colors: {
-      rainbow: {
-        yellow: '#F7B500',
-        orange: '#ee7749',
-        purple: '#B620E0',
-        lily: '#875ef4',
-        cyan: '#32C5FF',
-      },
+      primary: '#875ef4',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,

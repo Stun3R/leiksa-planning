@@ -16,4 +16,5 @@ module.exports = {
   'Fall Guys': {
     img: 'https://static-cdn.jtvnw.net/ttv-boxart/Fall%20Guys:%20Ultimate%20Knockout-285x380.jpg',
   },
+  TBD: {},
 }

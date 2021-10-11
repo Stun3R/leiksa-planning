@@ -4,7 +4,7 @@
       <header class="flex">
         <div class="font-medium">
           <h2 class="text-2xl text-white">Leiksa</h2>
-          <h1 class="text-rainbow-lily text-4xl max-w-max leading-[3rem]">
+          <h1 class="text-primary text-4xl max-w-max leading-[3rem]">
             Planning
           </h1>
           <div class="flex font-normal text-gray-300">
@@ -86,6 +86,7 @@
                 type="time"
                 validation="required"
                 label="Heure"
+                step="1800"
               />
               <FormulateInput
                 name="games"
