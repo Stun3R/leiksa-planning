@@ -20,7 +20,7 @@
             rounded-lg
             stroke-[3px] stroke-current
             text-white
-            bg-primary
+            bg-primary bg-opacity-75
           "
         />
         <img

@@ -10,11 +10,13 @@ module.exports = {
   'Counter-Strike: Global Offensive': {
     img: 'https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-285x380.jpg',
   },
+  'The Elder Scrolls V: Skyrim': {
+    img: 'https://static-cdn.jtvnw.net/ttv-boxart/The%20Elder%20Scrolls%20V:%20Skyrim-144x192.jpg',
+  },
   'Sea of Thieves': {
     img: 'https://static-cdn.jtvnw.net/ttv-boxart/Sea%20of%20Thieves-285x380.jpg',
   },
   'Fall Guys': {
     img: 'https://static-cdn.jtvnw.net/ttv-boxart/Fall%20Guys:%20Ultimate%20Knockout-285x380.jpg',
   },
-  TBD: {},
 }

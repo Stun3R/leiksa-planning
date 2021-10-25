@@ -113,12 +113,16 @@ import games from '~/seed/games'
 export default {
   data() {
     return {
-      games: _.sortBy(_.keys(games)),
+      games: [],
       week: this.$dayjs().weekday(0).format('YYYY-MM-DD'),
       formData: {
         days: [],
       },
     }
+  },
+  mounted() {
+    this.games = _.sortBy(_.keys(games))
+    this.games.push('TBD')
   },
   methods: {
     downloadPlanning() {
